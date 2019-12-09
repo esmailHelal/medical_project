@@ -1,0 +1,141 @@
+<section class="contact">
+  <div class="container">
+    <div class="breadcrumbb mt-5">
+      <h1 class="breadcrumb_title">
+        <span class="depth1"><a href="#">contact</a></span>
+      </h1>
+      <div class="breadcrumb text-center justify-content-center">
+        <a class="home" href="#" title="Return to Home">Home</a>
+        <span class="navigation-pipe"></span>
+        <span class="depth1"><a href="#">contact</a></span>
+      </div>
+    </div>
+
+    <div class="col-md-12 my-3">
+      <agm-map [latitude]="lat" [longitude]="lng">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="title">Contact Us</h2>
+        <p class="pre-text">
+          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam <br />
+          Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat sed do eiusmod tempor incididunt ut labore
+        </p>
+        <div class="info">
+          <ul>
+            <li class="ctAddress">
+              <span class="icon iconAddress">
+                <i class="fas fa-map-marker-alt"></i
+              ></span>
+              <span class="ml-2"
+                >123 Suspendis mattis, Sollicitudin District, Accums
+                Fringilla</span
+              >
+            </li>
+            <li class="ctEmail">
+              <span class="icon iconEmail">
+                <i class="fas fa-map-marker-alt"></i
+              ></span>
+              <span class="ml-2"
+                ><a href="mailto:support@domainstore.com"
+                  >Email: support@domainstore.com</a
+                ></span
+              >
+            </li>
+            <li class="ctHotline">
+              <span class="icon iconHotline">
+                <i class="fas fa-map-marker-alt"></i
+              ></span>
+              <span class="ml-2">Hotline: 0123456789</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <form>
+          <h2 class="title">Send your comments</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <div
+                  class="selector"
+                  id="uniform-id_contact"
+                  style="width: 378px;"
+                >
+                  <select
+                    id="id_contact"
+                    class="form-control"
+                    name="id_contact"
+                  >
+                    <option value="0">Choose</option>
+                    <option value="2">Customer service</option>
+                    <option value="1">Webmaster</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  class="form-control validate"
+                  type="text"
+                  id="email"
+                  name="from"
+                  data-validate="isEmail"
+                  value=""
+                  placeholder="Email address"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-6">
+              <div class="form-group selector1">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="id_order"
+                  id="id_order"
+                  value=""
+                  placeholder="Order reference"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-sm-6">
+    <div class="form-group">
+      
+      <input type="hidden" name="MAX_FILE_SIZE" value="2097152000">
+      <div class="uploader" id="uniform-fileUpload"><input type="file" name="fileUpload" id="fileUpload" class="form-control"><span class="filename" style="user-select: none;">No file selected</span><span class="action" style="user-select: none;">Choose File</span></div>
+    </div>
+  </div>
+        </div>
+
+        <div class="row">
+					<div class="col-md-12">
+						<div class="form-group" style="margin:0;">
+						
+							<textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+						</div>
+					</div>
+        </div>
+        <div class="submit clearfix">
+					<button type="submit" name="submitMessage" id="submitMessage" class="button btn btn-default button-medium">
+						Send Message 
+					</button>
+				</div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

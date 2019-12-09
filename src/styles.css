@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+a:hover {
+  color: #12ad9b;
+  text-decoration: none;
+  outline: none;
+}

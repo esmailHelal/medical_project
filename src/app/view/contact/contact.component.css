@@ -1,0 +1,227 @@
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbb {
+  background: url(./../../../assets/breadcrumb-bg.jpg) no-repeat center center;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  color: #12ad9b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.breadcrumb > * {
+  display: inline-block;
+}
+
+.breadcrumb_title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.breadcrumb_title a {
+  display: block;
+  color: #333;
+}
+
+.breadcrumb .navigation-pipe {
+  font-size: 0;
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  background: transparent;
+  margin: 0;
+}
+.breadcrumb a {
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.breadcrumb span.depth1 a {
+  color: #12ad9b;
+}
+.breadcrumb .navigation-pipe:before {
+  content: "\f105";
+  font-family: Fontawesome;
+  color: #777;
+  font-size: 14px;
+}
+agm-map {
+  height: 300px;
+}
+.title {
+  margin: 0px;
+  padding: 10px 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.pre-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.info {
+  margin: 10px 0;
+  padding: 15px 0;
+}
+.info ul li {
+  display: flex;
+
+  align-items: center;
+  padding: 12px 0px 10px;
+  position: relative;
+  color: #666;
+  border-top: 1px solid #f3f3f3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.info ul li span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 15px;
+  width: calc(100% - 15px);
+}
+.info ul li span.icon {
+  padding: 0px;
+  width: 15px;
+  height: 30px;
+  font-size: 16px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group .form-control {
+  padding: 6px 20px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: none;
+  background-color: #fff;
+  color: #555;
+  font-size: 13px;
+  font-weight: 500;
+}
+.form-group div.selector {
+  padding-right: 5px;
+  width: 100% !important;
+  height: 40px;
+  line-height: 38px;
+  background-image: none;
+  background-color: #fff;
+  color: #555;
+
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+div.uploader {
+  background: none;
+  height: 27px;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.form-group div.uploader {
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.form-group div.uploader #fileUpload {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: default;
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+div.uploader span.filename {
+  color: #777;
+  border: solid 1px #d6d4d4;
+  font-size: 13px;
+  background: #fbfbfb;
+  margin-right: 2px;
+}
+.form-group div.uploader span.filename {
+  margin: 0;
+  padding: 0 20px;
+  float: left;
+  width: 70%;
+  height: 40px;
+  background: transparent;
+  background-image: none;
+  border: none;
+  font-size: 13px;
+  line-height: 40px;
+  color: #555;
+  font-weight: 500;
+}
+.form-group div.uploader span.action {
+  padding: 0px 15px;
+  float: right;
+  width: 30%;
+  height: 40px;
+  background-image: none;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 40px;
+  text-shadow: none;
+}
+
+.form-group textarea.form-control {
+  padding: 10px 20px;
+  height: auto;
+}
+
+.submit {
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+.submit .btn {
+  padding: 0px 20px;
+  height: 40px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

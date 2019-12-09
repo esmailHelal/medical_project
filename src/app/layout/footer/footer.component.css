@@ -1,0 +1,125 @@
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-infos span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.footer-container {
+  position: relative;
+  background: #f5f5f5;
+}
+.footer-v5 {
+  margin-top: 40px;
+}
+@media (min-width: 992px) {
+  .footer-v5 .flexRowFooter .contact-infos {
+    width: 34%;
+  }
+}
+.flexRowFooter .contact-infos {
+  width: 31.6%;
+}
+.footer-container .title-box {
+  margin: 0px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+.contact-infos ul.list-contact {
+  padding: 8px 0 0;
+}
+.contact-infos ul.list-contact li {
+  min-height: 30px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 0px;
+
+  display: flex;
+}
+.contact-infos span.icon {
+  width: 22px;
+  color: #333;
+  font-size: 12px;
+}
+.contact-infos span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.contact-infos span label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+  margin: 0px;
+  min-width: 76px;
+  vertical-align: middle;
+}
+.contact-infos span a {
+  text-decoration: underline;
+}
+.contact-infos ul.list-contact li.phone span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #12ad9b;
+}
+.footer-content {
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer-container .title-box {
+  margin: 0px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+.footer-links ul.links li {
+  padding: 3px 0;
+}
+.footer-links ul.links li a {
+  position: relative;
+  display: block;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  line-height: 30px;
+  transition: 0.3s all ease 0s;
+}
+.footer-links ul.links li a:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #777;
+  left: 0px;
+  top: calc(50% - 3px);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+.footer-links ul.links li a:hover {
+  padding: 0px 15px;
+}
+.footer-links ul.links li a:hover {
+  color: #12ad9b;
+}
+.footer-links ul.links li a:hover::before {
+  background-color: #12ad9b;
+}

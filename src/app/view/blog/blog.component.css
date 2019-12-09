@@ -1,0 +1,238 @@
+div.blogModule ul.list-link {
+  padding: 12px 4px;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div.blogModule {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.block .title_block,
+.moduletable .title_block {
+  margin: 0 0 25px 0;
+  color: #333;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0;
+  position: relative;
+}
+div.blogModule h3.title_block {
+  margin: 0px;
+  padding: 15px 30px;
+  line-height: 23px;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+.block .block_content {
+  padding: 5px 0 5px 0;
+  background-color: #fff;
+}
+div.blogModule ul.list-link li {
+  padding: 0;
+  position: relative;
+}
+div.blogModule ul.list-link li a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  padding: 10px 30px;
+  line-height: 20px;
+  border-radius: 5px;
+  transition: 0.3s all ease 0s;
+}
+
+div.blogModule ul.list-link li a:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 6px;
+  width: 15px;
+  background: url(../../../assets/icon_dot.png) no-repeat left top;
+}
+div.blogModule ul.list-link li a:hover {
+  background-color: #12ad9b;
+  color: white;
+}
+#tags_block_left {
+  margin-top: 30px;
+}
+#tags_block_left .title_block {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+  line-height: 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.tags_block .block_content a {
+  display: block;
+  font-size: 13px;
+  padding: 7px 15px 5px;
+
+  border-radius: 5px;
+  color: #555555;
+  border: solid 1px #ddd;
+  background: #fff;
+  margin: 0 5px 5px 0;
+  transition: 0.3s all ease 0s;
+}
+#tags_block_left .block_content a:hover {
+  background-color: #12ad9b;
+  border-color: #12ad9b;
+}
+.tags_block .block_content a:hover {
+  color: #fff;
+}
+#recent_article_smart_blog_block_left {
+  margin-top: 30px;
+}
+div.blogModule h3.title_block {
+  margin: 0px;
+  padding: 15px 30px;
+  line-height: 23px;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+#recent_article_smart_blog_block_left .block_content {
+  padding: 10px 20px;
+  overflow: hidden;
+}
+ul.recentArticles {
+  padding: 10px 0;
+}
+ul.recentArticles {
+  padding: 10px 0;
+}
+ul.recentArticles li {
+  padding: 5px 0px;
+  overflow: hidden;
+}
+.block_content .col-md-4,
+.block_content .col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+ul.recentArticles li .image {
+  margin-right: 15px;
+  display: inline-block;
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul.recentArticles li .title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  line-height: 22px;
+  display: block;
+}
+ul.recentArticles li .custom-info span {
+  font-size: 11px;
+}
+ul.recentArticles li .image img {
+  width: 70px;
+
+  transition: 0.3s all ease-out;
+
+  transform: scale(1);
+  margin: 0;
+}
+ul.recentArticles li .title:hover {
+  color: #12ad9b;
+}
+ul.recentArticles li .image img:hover {
+  transform: scale(1.1);
+}
+#smartblogcat .articleWrap {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-flow: row wrap;
+
+  align-items: center;
+}
+.articleWrap .articleImage {
+  width: 44%;
+  padding: 10px;
+}
+.imageFeaturedLink {
+  display: block;
+  position: relative;
+}
+.imageFeaturedLink img {
+  padding: 0;
+  max-width: 100%;
+}
+.articleWrap .articleContent {
+  width: 56%;
+  padding: 10px;
+}
+.articleDate > span {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: text-bottom;
+  line-height: 30px;
+}
+.articleDate > span.articleDay {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.articleDate > span.articleMonth {
+  line-height: 24px;
+}
+.articleTitle {
+  padding: 20px 0 10px;
+}
+.articleTitle > a {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+.articleDesc {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+.articleMeta {
+  padding: 20px 0 0;
+}
+.postMetaComment {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sdsarticleCat {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+a {
+  color: #666;
+}
+.articleDate:hover {
+  color: #12ad9b;
+}
+.sdsarticleCat:hover {
+  border-color: #12ad9b;
+}
+.postMetaReadmore {
+  margin-left: auto;
+  font-weight: 500;
+}

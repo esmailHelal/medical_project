@@ -1,0 +1,83 @@
+<section class="auth">
+  <div class="container">
+    <div class="breadcrumbb mt-5">
+      <h1 class="breadcrumb_title">
+        <span class="depth1"><a href="#">AUTHENTICATION</a></span>
+      </h1>
+      <div class="breadcrumb text-center justify-content-center">
+        <a class="home" href="#" title="Return to Home">Home</a>
+        <span class="navigation-pipe"></span>
+        <span class="depth1"><a href="#">AUTHENTICATION</a></span>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-md-6">
+        <form id="create-account_form" class="box">
+          <h3 class="page-subheading">Create an account</h3>
+          <div class="form_content clearfix">
+            <p>Please enter your email address to create an account.</p>
+
+            <div class="form-group">
+              <label for="email_create">Email address</label>
+              <input
+                type="email"
+                class="is_required validate account_input form-control"
+                data-validate="isEmail"
+                id="email_create"
+                name="email_create"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+                    <label for="passwd">Password</label>
+                    <input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+                </div>
+            <div class="submit">
+              <button
+                class="btn btn-default button button-medium exclusive"
+                type="submit"
+                id="SubmitCreate"
+                name="SubmitCreate"
+              >
+                <span>
+                  <i class="fa fa-user left"></i>
+                  Create an account
+                </span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+       <div class="col-md-6">
+            <form  id="login_form" class="box">
+				<h3 class="page-subheading">Already registered?</h3>
+				<div class="form_content clearfix">
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input class="is_required validate account_input form-control" data-validate="isEmail" type="email" id="email" name="email" value="">
+					</div>
+					<div class="form-group">
+						<label for="passwd">Password</label>
+						<input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+					</div>
+					<p class="lost_password form-group"><a href="#" title="Recover your forgotten password" rel="nofollow">Forgot your password?</a></p>
+					<p class="submit">
+											<button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium">
+							<span>
+								<i class="fa fa-lock left"></i>
+								Sign in
+							</span>
+						</button>
+					</p>
+				</div>
+			</form>
+
+
+       </div>
+    </div>
+
+
+    
+  </div>
+</section>

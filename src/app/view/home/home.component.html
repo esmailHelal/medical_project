@@ -1,0 +1,1633 @@
+<section id="home">
+    <div class="container">
+        <div class="row">
+            <div class="sidebarLeftColumn col-xs-12 col-sm-6 col-md-3">
+                <div class="moduleSidebar">
+                    <!-- Block Newsletter module -->
+                    <div id="newsletter_block_home">
+                        <div class="title-block">Newsletter</div>
+                        <div class="block_content clearfix">
+                            <div class="newsletterDesc">
+                                <span class="promotion">Daily Promotion</span>
+                                SIGN UP FOR NEWS &amp; GET <span>20% OFF</span>
+                            </div>
+                            <div class="newsletterForm">
+                                <form>
+                                    <div class="form-group">
+                                        <input class="inputNew grey newsletter-input" size="80" id="newsletter-input"
+                                            type="text" name="email" placeholder="Enter your email" />
+                                        <button type="submit" name="submitNewsletter"
+                                            class="btn btn-default button button-small">
+                                            <i class="fa fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Block Newsletter module-->
+                </div>
+
+                <div class="moduleSidebar">
+                    <div class="block lastestnews">
+                        <div class="box-title">
+                            <h3 class="title_block">
+                                <i class="icon-lastesnews"></i> LATEST BLOGS
+                            </h3>
+                        </div>
+                        <owl-carousel
+                        [options]="firstslide"
+                         [items]="data"
+                        
+                        [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                        <div class="item" *ngFor="let a of data">
+                                <li class="post">
+                                        <div class="post-inner">
+                                            <div class="post_image">
+                                                <a href="#"><img alt="Filet mignon laborum" class="feat_img"
+                                                        src="assets/3-home-default.jpg" /></a>
+                                            </div>
+                                            <div class="post_content">
+                                                <div class="postItem">
+                                                    <div class="postDate">
+                                                        <span class="postDay">26</span>
+                                                        <span>/</span>
+                                                        <span class="postMonth">October 2015</span>
+                                                    </div>
+                                                    <div class="postTittle">
+                                                        <a href="#">Filet mignon laborum</a>
+                                                    </div>
+                                                    <div class="postDesc">
+                                                        {{a.title}}
+                                                    </div>
+                                                    <div class="postMeta d-flex">
+                                                        <div class="postMetaComment">
+                                                            <a title="												 Comment
+                                " href="#">
+                                                                8 <span>Comments</span>
+                                                                <i class="fa fa-comments"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div class="postMetaReadmore ml-1">
+                                                            <a href="#">Read more
+                                                                <i class="fa fa-arrow-circle-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                               </div>
+                    </owl-carousel>
+                    </div>
+                </div>
+             
+
+
+
+                <div class="moduleSidebar">
+                    <div id="htmlTestimonials4">
+                        <h3 class="title_block">
+                            <i class="icon-testimonials"></i> Testimonials
+                        </h3>
+                        <div class="testimonials">
+                            <owl-carousel
+                            [options]="secondslide"
+                               [items]="data"
+            
+                                 [carouselClasses]="[  'row', 'sliding']" >
+                                   <div class="item " *ngFor="let item of data">
+                               <div class="item1">
+                    <div class="testItem">
+                        <div class="testImage"></div>
+                        <div class="testName">{{item.title}}</div>
+                        <div class="testContent">
+                            Lorem ipsum dolor sit amet, conmetur asdipiscing
+                            elit, sed do eiusmod temporace imcedidunt ut labore
+                            et dolore.
+                        </div>
+                    </div>
+                                       </div>
+            </div></owl-carousel>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+            <div class="centerColumn col-xs-12 col-sm-12 col-md-6">
+                <div class="sliderContains">
+                    <!-- Module SpHomeSlider -->
+                    <div id="sphomepage-slider5" class="sphomepage-slider ">
+                        <!--  <div class="sp-homeslider extraslider-inner-5" data-effect="">  -->
+                        <div class="sp-homeslider sphomeslider-inner-5 owl-carousel owl-theme owl-loaded">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="width: 3990px; transform: translate3d(-1140px, 0px, 0px); transition: all 0s ease 0s;">
+                                    <div class="owl-item cloned" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-14">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-14.jpg"
+                                                    alt="sample-14" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-15">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-15.jpg"
+                                                    alt="sample-15" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-13">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-13.jpg"
+                                                    alt="sample-13" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-14">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-14.jpg"
+                                                    alt="sample-14" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-15">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-15.jpg"
+                                                    alt="sample-15" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-13">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-13.jpg"
+                                                    alt="sample-13" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 570px; margin-right: 0px;">
+                                        <div class="item ">
+                                            <a href="#" title="sample-14">
+                                                <img class="responsive"
+                                                    src="http://prestashop.flytheme.net/sp_himarket/modules/sphomeslider/images/sample-14.jpg"
+                                                    alt="sample-14" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /Module SpHomeSlider -->
+                </div>
+                <div class="ps-spotlight1">
+                    <div class="moduletable">
+                        <h3 class="title_block">
+                            Medical Equipment
+                        </h3>
+                        <div class="ltabs-wrap">
+                            <!-- Tabs with Background on Card -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs nav-tabs-neutral " role="tablist"
+                                        data-background-color="orange">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#home1"
+                                                role="tab">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#profile1"
+                                                role="tab">Profile</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#messages1"
+                                                role="tab">Messages</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#settings1"
+                                                role="tab">Settings</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                              
+
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content text-center">
+                                        <div class="tab-pane active" id="home1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="profile1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="messages1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="settings1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="image19Index row">
+                                <div class="col-xs-12">
+
+                                    <div class="moduletable  sp_banner_19_15736016191584622722 effect-3  spbanner">
+                                        <a href="#" title="Banner Index 5 - One">
+                                            <img class="img-responsive"
+                                                src="http://prestashop.flytheme.net/sp_himarket/modules/spbanner/images/b917b4bf6867d2328827c1f3790d0e0ef4acc6ec_img1_home5.jpg"
+                                                alt="Banner Index 5 - One" title="Banner Index 5 - One" width="1170"
+                                                height="65">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Tabs on plain Card -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ps-spotlight2">
+                    <div class="moduletable">
+                        <h3 class="title_block">
+                            Dental Equipment
+                        </h3>
+                        <div class="ltabs-wrap">
+                            <!-- Tabs with Background on Card -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs nav-tabs-neutral " role="tablist"
+                                        data-background-color="orange">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#home1"
+                                                role="tab">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#profile1"
+                                                role="tab">Profile</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#messages1"
+                                                role="tab">Messages</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#settings1"
+                                                role="tab">Settings</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                              
+
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content text-center">
+                                        <div class="tab-pane active" id="home1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="profile1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="messages1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                        <div class="tab-pane" id="settings1" role="tabpanel">
+                                            <owl-carousel
+                                            [options]="thirdslider"
+                                             [items]="data"
+                                             class="ltabs-items-inner  slideLeft play"
+                                            [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                            <div class="item " *ngFor="let item of data">
+                                            <div class="ltabs-item">
+                                                <div class="product-container" itemscope=""
+                                                    itemtype="#">
+                                                    <div class="left-block">
+                                                        <div class="product-image-container">
+                                                            <div class="product-image">
+                                                                <a class="product_img_link" href="#"
+                                                                    title="Landjaeger Kroident">
+                                                                    <img class="img_1"
+                                                                        src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                        alt="Landjaeger Kroident" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="label-box">
+                                                                <span class="new-box">New</span>
+                                                            </div>
+                                                            <div class="button-container">
+                                                                <a class="addToWishlist wishlistProd_41"
+                                                                    title="Add to wishlist" href="#">
+                                                                    <i class="fa fa-heart-o"></i>
+                                                                </a>
+            
+                                                                <a class="add_to_compare" href="#"
+                                                                    data-tooltip-remove="Remove from compare"
+                                                                    title="Add to compare"
+                                                                    data-id-product="41">
+                                                                    <i class="fa fa-clone"></i>
+                                                                </a>
+                                                                <a class="quick-view" href="#"
+                                                                    title="Quick view" data-rel="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="right-block">
+                                                        <h5 itemprop="name" class="product-name">
+                                                            <a href="#" title="Landjaeger Kroident">
+                                                                Landjaeger Kroident
+                                                            </a>
+                                                        </h5>
+            
+                                                        <div itemprop="offers" itemscope=""
+                                                            itemtype="http://schema.org/Offer"
+                                                            class="price-box">
+                                                            <span itemprop="price"
+                                                                class="price product-price">
+                                                                987,95 $
+                                                            </span>
+                                                            <meta itemprop="priceCurrency"
+                                                                content="ARS" />
+                                                        </div>
+                                                        <div class="button-container">
+                                                            <a class="cart_button ajax_add_to_cart_button"
+                                                                href="#" rel="nofollow"
+                                                                title="Add to cart"
+                                                                data-id-product="41">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <span>Add to cart</span>
+                                                            </a>
+            
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </owl-carousel>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="boxTwoImage row">
+                                <div class="col-md-6">
+
+                                    <div class="moduletable  sp_banner_20_15736016191252070477
+     effect-3  spbanner">
+                                        <a href="#" title="Banner Index 5 - Two">
+                                            <img class="img-responsive"
+                                                src="http://prestashop.flytheme.net/sp_himarket/modules/spbanner/images/6c12c38de5ddaeffc3b88d04f3aa15df43c107e5_img2_home5.jpg"
+                                                alt="Banner Index 5 - Two" title="Banner Index 5 - Two" width="1170"
+                                                height="65">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+
+                                    <div class="moduletable  sp_banner_21_15736016191121974319
+                                                                            effect-3  spbanner">
+                                        <a href="#" title="Banner Index 5 - Three">
+                                            <img class="img-responsive"
+                                                src="http://prestashop.flytheme.net/sp_himarket/modules/spbanner/images/0d4716ed2bc1425eb739349db56f2ec6bc97b7dc_img3_home5.jpg"
+                                                alt="Banner Index 5 - Three" title="Banner Index 5 - Three" width="1170"
+                                                height="65">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Tabs on plain Card -->
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+
+            </div>
+
+            <div class="sidebarRightColumn col-xs-12 col-sm-6 col-md-3">
+                <div class="dealLeftColumn">
+                    <div class="moduleSidebar">
+                        <div class="block lastestnews">
+                            <div class="box-title">
+                                <h3 class="title_block">
+                                    <i class="icon-lastesnews"></i> Hot Deals
+                                </h3>
+                            </div>
+                          
+
+                            <ul class="lastest_posts ">
+                                    <owl-carousel
+                                    [options]="firstslide"
+                                     [items]="data"
+                                    
+                                    [carouselClasses]="[ 'row', 'sliding']" class="lastest_posts">
+                                    <div class="item" *ngFor="let a of data">
+                                            <li class="post">
+                                                    <div class="post-inner">
+                                                        <div class="post_image">
+                                                            <a href="#"><img alt="Filet mignon laborum" class="feat_img"
+                                                                    src="http://prestashop.flytheme.net/sp_himarket/98-deal_home_default/faded-short-sleeves-tshirt.jpg" /></a>
+                                                        </div>
+                                                        <div class="post_content">
+                                                            <div class="right-block">
+        
+                                                                <div id="time-item1" class="item-time pt-2 text-white">
+        
+                                                                </div>
+        
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="" title="Aliquam Leberkas">
+                                                                        Aliquam Leberkas
+                                                                    </a>
+                                                                </h5>
+        
+                                                                <div itemprop="offers" itemscope="" itemtype=""
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        190,71 $ </span>
+        
+        
+                                                                    <span class="old-price product-price">
+                                                                        250,94 $
+                                                                    </span>
+        
+        
+        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                    </div> </owl-carousel>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proList5Right">
+
+                        <!-- SP Extra Slider -->
+                        <div class="moduletable  ">
+                            <h3 class="title_block">
+                                Bestsellers
+                            </h3>
+
+
+
+
+
+                            <div id="sp_extra_slider_12_157373571168622066" class="sp-extraslider buttom-type1 preset01-1 preset02-1 preset03-1 preset04-1
+                                              button-type1">
+                                <!-- Begin extraslider-inner -->
+
+                                <div class="extraslider-inner product_list grid owl-carousel owl-theme owl-loaded"
+                                    data-effect="none">
+
+
+                                    <!-- Begin item -->
+
+                                    <!-- End item-->
+
+                                    <!-- Begin item -->
+
+                                    <!-- End item-->
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage">
+                                            <div class="owl-item active">
+                                                <div class="item ">
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Zicanha andouille"
+                                                                            itemprop="url">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/265-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Zicanha andouille">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Zicanha andouille">
+                                                                        Zicanha andouille
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 519,92 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Xeberkas meatloa"
+                                                                            itemprop="url">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/255-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Xeberkas meatloa">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view" data-rel="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Xeberkas meatloa">
+                                                                        Xeberkas meatloa
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 063,94 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Tenderloin cupidatat"
+                                                                            itemprop="url">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/310-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Tenderloin cupidatat">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Tenderloin cupidatat">
+                                                                        Tenderloin cupidatat
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 459,12 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/300-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Senison andouille">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view"
+                                                                            data-rel="http://prestashop.flytheme.net/sp_himarket/en/shop-5/52-faded-short-sleeves-tshirt.html">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Senison andouille">
+                                                                        Senison andouille
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 459,12 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/270-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Sausage porkosh">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view" data-rel="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="http://prestashop.flytheme.net/sp_himarket/en/shop-5/46-faded-short-sleeves-tshirt.html"
+                                                                        title="Sausage porkosh">
+                                                                        Sausage porkosh
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 459,12 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+                                                </div>
+                                            </div>
+
+
+                                            <div class="owl-item">
+                                                <div class="item ">
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/250-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Picanha rumpsin">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view"
+                                                                            data-rel="http://prestashop.flytheme.net/sp_himarket/en/shop-5/42-faded-short-sleeves-tshirt.html">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Picanha rumpsin">
+                                                                        Picanha rumpsin
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 018,35 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/295-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Peberkas meatloaf">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view"
+                                                                            data-rel="http://prestashop.flytheme.net/sp_himarket/en/shop-5/51-faded-short-sleeves-tshirt.html">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Peberkas meatloaf">
+                                                                        Peberkas meatloaf
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 270,65 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+                                                                    <span class="old-price product-price">
+                                                                        1 337,53 $
+                                                                    </span>
+
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/320-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Oausage consectet">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view"
+                                                                            data-rel="http://prestashop.flytheme.net/sp_himarket/en/shop-5/56-faded-short-sleeves-tshirt.html">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Oausage consectet">
+                                                                        Oausage consectet
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 367,93 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Nonsectetur bresaola"
+                                                                            itemprop="url">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/305-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Nonsectetur bresaola">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view" data-rel="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Nonsectetur bresaola">
+                                                                        Nonsectetur bresaola
+                                                                    </a>
+                                                                </h5>
+
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        1 459,12 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+
+                                                    <div class="item-wrap style1">
+                                                        <div class="product-container" itemscope=""
+                                                            itemtype="http://schema.org/Product">
+                                                            <div class="left-block">
+                                                                <div class="product-image-container">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="Landjaeger Kroident"
+                                                                            itemprop="url">
+                                                                            <img class="img_1"
+                                                                                src="http://prestashop.flytheme.net/sp_himarket/245-home_default/faded-short-sleeves-tshirt.jpg"
+                                                                                alt="Landjaeger Kroident">
+                                                                        </a>
+
+                                                                    </div>
+                                                                    <div class="button-container">
+                                                                        <!--   Enable quick view  -->
+                                                                        <a class="quick-view" href="#"
+                                                                            title="Quick view" data-rel="#">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="right-block">
+                                                                <h5 itemprop="name" class="product-name">
+                                                                    <a href="#" title="Landjaeger Kroident">
+                                                                        Landjaeger Kroident
+                                                                    </a>
+                                                                </h5>
+
+                                                                <div itemprop="offers" itemscope=""
+                                                                    itemtype="http://schema.org/Offer"
+                                                                    class="price-box">
+                                                                    <span itemprop="price" class="price product-price">
+                                                                        987,95 $ </span>
+                                                                    <meta itemprop="priceCurrency" content="ARS">
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End item-wrap -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End extraslider-inner -->
+                            </div>
+
+                        </div>
+                        <!-- /SP Extra Slider -->
+                    </div>
+
+                    <div class="image22Index">
+
+                        <div class="moduletable  sp_banner_22_1573800996202072984 effect-2  spbanner">
+                            <a href="#" title="Banner Index 5 - Four">
+                                <img class="img-responsive"
+                                    src="http://prestashop.flytheme.net/sp_himarket/modules/spbanner/images/ced3b59a9b772a1a4a2be4bb7ef20e813192f44d_img4_home5.jpg"
+                                    alt="Banner Index 5 - Four" title="Banner Index 5 - Four" width="1170" height="65">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="brands">
+                        <div class="brands-title">
+                            <h3 class="title_block">
+                                Brands
+                            </h3>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="item-wrap row">
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Collins &amp; Hayes ">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/4.jpg"
+                                                class="logo_manufacturer" title="Collins &amp; Hayes "
+                                                alt="Collins &amp; Hayes ">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Duresta">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/2.jpg"
+                                                class="logo_manufacturer" title="Duresta" alt="Duresta">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Ercol">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/5.jpg"
+                                                class="logo_manufacturer" title="Ercol" alt="Ercol">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="G Plan">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/1.jpg"
+                                                class="logo_manufacturer" title="G Plan" alt="G Plan">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Magetech">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/8.jpg"
+                                                class="logo_manufacturer" title="Magetech" alt="Magetech">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Nike">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/6.jpg"
+                                                class="logo_manufacturer" title="Nike" alt="Nike">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Parker Knoll">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/3.jpg"
+                                                class="logo_manufacturer" title="Parker Knoll" alt="Parker Knoll">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-md-6">
+                                <div class="item-img item-height">
+                                    <div class="item-img-info">
+                                        <a href="#" title="Puma">
+                                            <img src="http://prestashop.flytheme.net/sp_himarket/img/m/7.jpg"
+                                                class="logo_manufacturer" title="Puma" alt="Puma">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>

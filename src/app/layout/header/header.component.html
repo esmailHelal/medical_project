@@ -1,0 +1,331 @@
+<section class="header" *ngIf="this._CheckHeaderFooterService.visible">
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <div class="headerTopWrap">
+          <div class="row">
+            <div id="block_left" class="col-xs-12 col-sm-12 col-md-6">
+              <div class="topbarLeftWrap">
+                <div class="wellcome-msg">
+                  Welcome to Market!
+                </div>
+                <div class="join">
+                  <a routerLink="auth" rel="nofollow" title="Log in">
+                    Login
+                  </a>
+                  <span>or</span>
+                  <a routerLink="auth" rel="nofollow" title="Join Free">
+                    Register
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="block_rigth"
+              class="boxNavRight col-xs-12 col-sm-12 col-md-6"
+            >
+              <div class="boxNavRight">
+                <div class="storeLocation">
+                  <a href="#"
+                    ><i class="fa fa-map-marker"></i> Store Location</a
+                  >
+                </div>
+                <div id="user_infoblock-top" class="header_user_info">
+                  <div class="current">
+                    <span>My Account</span>
+                  </div>
+                  <ul class="toogle_content" style="display: none;">
+                    <li class="account">
+                      <a href="#" title="My Account" rel="nofollow">
+                        <span class="icon"></span>
+                        <span>My Account</span>
+                      </a>
+                    </li>
+                    <li class="wishlist">
+                      <a href="#" title="My Wishlist" rel="nofollow">
+                        <span class="icon"></span>
+                        <span>My Wishlist</span>
+                      </a>
+                    </li>
+                    <li class="checkout">
+                      <a href="#" title="Checkout">
+                        <span class="icon"></span>
+                        <span>Checkout</span>
+                      </a>
+                    </li>
+                    <li class="login">
+                      <a href="#" rel="nofollow" title="Log in">
+                        <span class="icon"></span>
+                        <span>Login</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="languages-block-top" class="languages-block ml-2">
+                  <div class="current">
+                    <!--<img src="http://prestashop.flytheme.net/sp_himarket/img/l/1.jpg" alt="en" />-->
+                    <span>English</span>
+                  </div>
+                  <ul id="first-languages" class="ml-2" style="display: none;">
+                    <li class="selected">
+                      <span
+                        ><img
+                          src="http://prestashop.flytheme.net/sp_himarket/img/l/1.jpg"
+                          alt="en"
+                        />
+                        English</span
+                      >
+                    </li>
+                    <li>
+                      <a href="#" title="Arabic">
+                        <span
+                          ><img
+                            src="http://prestashop.flytheme.net/sp_himarket/img/l/2.jpg"
+                            alt="ar"
+                          />
+                          Arabic</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-center">
+          <div class="container">
+            <div class="row">
+              <div id="header_logo" class="col-xs-12 col-sm-12 col-md-3">
+                <a class="logo" href="" title="SP medicalMarket">
+                  <img
+                    src="#"
+                    alt="SP HiMarket"
+                    width="202"
+                    height="62"
+                  />
+                </a>
+              </div>
+              <div class="headerSearch5  col-md-6   col-xs-3 col-sm-3">
+                <div class="sp_searchpro ">
+                  <div class="container">
+                    <div class="row">
+                      <form class="sprsearch-form  show-box show-form">
+                        <div class="row">
+                          <div class="spr_selector mr-2">
+                            <select class="spr_select">
+                              <option value="2,152,67">All categories</option>
+
+                              <option value="2">
+                                - Home
+                              </option>
+
+                              <option value="152">
+                                - - Shop 123
+                              </option>
+
+                              <option value="67">
+                                - - - Smartphones &amp; Tablets
+                              </option>
+                            </select>
+                          </div>
+                          <div class="text-search">
+                            <input
+                              class="spr-query ac_input"
+                              type="text"
+                              name="search_query"
+                              value=""
+                              placeholder="Search products..."
+                              autocomplete="off"
+                            />
+                          </div>
+                          <button
+                            value="Search"
+                            class="spr-search-button"
+                            type="submit"
+                            name="spr_submit_search"
+                          >
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="sp_searchpro searchmobile ">
+                  <div class="container">
+                    <div class="row">
+                      <div class="icon-search active">
+                        <i class="fa fa-search"></i>
+                      </div>
+                      <form class="sprsearch-form  show-box show-form">
+                        <div class="spr_selector mr-2">
+                          <select class="spr_select">
+                            <option value="2,152,67">All categories</option>
+
+                            <option value="2">
+                              - Home
+                            </option>
+
+                            <option value="152">
+                              - - Shop 123
+                            </option>
+
+                            <option value="67">
+                              - - - Smartphones &amp; Tablets
+                            </option>
+                          </select>
+                        </div>
+                        <div class="text-search">
+                          <input
+                            class="spr-query ac_input"
+                            type="text"
+                            name="search_query"
+                            value=""
+                            placeholder="Search products..."
+                            autocomplete="off"
+                          />
+                        </div>
+                        <button
+                          value="Search"
+                          class="spr-search-button"
+                          type="submit"
+                          name="spr_submit_search"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="header_cart" class=" col-md-3 col-xs-3 col-sm-3">
+                <div class="blockcart clearfix">
+                  <div class="shopping_cart clearfix">
+                    <a
+                      href="#"
+                      title="View my shopping cart"
+                      rel="nofollow"
+                    >
+                      <div class="icon-cart"></div>
+                      <span
+                        class="ajax_cart_empty"
+                        style="display: inline-block;"
+                        >0</span
+                      >
+                      <span class="ajax_cart_quantity" style="display: none;"
+                        >1</span
+                      >
+                      <span class="ajax_cart_total">0,00 $</span>
+                      <span class="arrow"
+                        ><i class="fa fa-caret-down"></i
+                      ></span>
+                    </a>
+                    <div
+                      class="cart_block block exclusive"
+                      style="display: block;"
+                    >
+                      <div class="block_content">
+                        <!-- block list of products -->
+                        <div class="cart_block_list">
+                          <p class="recent_items " style="display: block;"></p>
+                          <p
+                            class="cart_block_no_products"
+                            style="display: block;"
+                          >
+                            No product in shopping cart
+                          </p>
+
+                          <div class="cart-prices">
+                            <div class="price-total titleFont">
+                              <span class="price_text">SubTotal : </span>
+                              <span
+                                class="price cart_block_total ajax_block_cart_total"
+                                >0,00 $</span
+                              >
+                            </div>
+                            <div class="buttons">
+                              <a
+                                id="button_order_cart"
+                                class="btn btn-default button button-small titleFont"
+                                href="#"
+                                title="View my shopping cart"
+                                rel="nofollow"
+                              >
+                                View cart
+                              </a>
+                              <a
+                                id="button_goto_cart"
+                                class="btn btn-default button button-small titleFont"
+                                href="#"
+                                title="View my shopping cart"
+                                rel="nofollow"
+                              >
+                                Checkout
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- .cart_block -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="header-middle mt-3">
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="product">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="faq">Faq</a>
+                </li>
+               
+              </ul>
+              
+            </div>
+            <div class="hotline"><i class="fa fa-phone"></i> Call us free: <span>000-943-446-000</span></div>
+          </div>
+          </nav>
+
+
+
+        </div>
+        
+
+
+
+
+
+
+
+      
+    </div>
+  </header>
+</section>
